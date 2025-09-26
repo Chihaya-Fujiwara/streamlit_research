@@ -55,7 +55,7 @@ def summury(name):
                     except KeyError:
                         journal = ''
                 
-                date =  jsonData['items'][i]['publication_date']
+                date =  jsonData['items'][i]['publication_date'].split('-')[0]
                 
                 try:
                     doi = jsonData['items'][i]['identifiers']['doi'][0]
@@ -203,6 +203,7 @@ if st.button("Click"):
     data[0]['date'] = pd.to_datetime(data[0]['date'], errors='coerce')
     df = data[0]['date'].dt.year
 
+    #st.write(data[0]['date'])
 
     # 3. グラフ描画: Plotly Expressでヒストグラムを作成
     fig1 = px.histogram(
