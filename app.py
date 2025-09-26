@@ -147,9 +147,10 @@ st.header("# 研究業績分析アプリ\nこのアプリは研究者のリサ�
 st.write("リサーチマップ: https://researchmap.jp/")
 
 st.write("Research mapを基に、https://researchmap.jp/hogehogehoge hogehogehoge部分を確認し、下記にコピーあんどぺーすと")
+st.write("Clickをpush後1分程度待機")
+st.write("表の右上のダウンロードボタンを押し、csvファイルを保存")
+
 name = st.text_input('hogehogehoge 部分を入力')
-
-
 
 # ボタン
 if st.button("Click"):
