@@ -143,7 +143,7 @@ def summury(name):
 # タイトルとヘッダー
 # -----------------------------------------------------------------
 st.title("")
-st.header("# 研究業績分析アプリ\nこのアプリは研究者の論文リストを可視化し、業績リストをcsvファイルにまとめます。")
+st.header("# 研究業績分析アプリ\nこのアプリは研究者のリサーチマップ上の論文リストを可視化し、業績リストをcsvファイルにまとめます。")
 st.write("リサーチマップ: https://researchmap.jp/")
 
 st.write("Research mapを基に、https://researchmap.jp/hogehogehoge hogehogehoge部分を確認し、下記にコピーあんどぺーすと")
